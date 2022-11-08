@@ -2,7 +2,7 @@ import React from 'react'
 import { auth } from '../firebase';
 
 const style = {
-  button: `bg-grey200 px-4 py-2 hover:bg-grey-100`
+  button: `bg-grey200 px-4 py-2 hover:bg-gray-600`
 }
 
 

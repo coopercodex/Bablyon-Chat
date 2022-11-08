@@ -5,7 +5,7 @@ import { db } from '../firebase'
 import { query, collection, onSnapshot, orderBy } from 'firebase/firestore'
 
 const style = {
-  chat: `flex flex-col p-[10px] relative`,
+  chat: `flex flex-col p-[10px] mb-[4rem] relative overflow-y-auto`,
 }
 const Chat = () => {
   const [messages, setMessages] = useState([]);
@@ -26,13 +26,13 @@ const Chat = () => {
   console.log(messages)
   return (
     <>
-      <div className={style.chat}>
+      <main className={style.chat}>
         {messages && 
         messages.map((message) => {
           return <Message key={message.id} message={message} />
         })}
         
-        </div>
+        </main>
       <SendMessage scroll={scroll} />
       <span ref={scroll}></span>
     </>

@@ -5,13 +5,10 @@
   - [Deployed Page](#deployed-page)
   - [Technologies](#technologies)
   - [Features](#features)
-  - [Page Demo](#page-demo)
   - [Illustrations](#illustrations)
   - [Possible Future Extensions](#possible-future-extensions)
   - [Set Up](#set-up)
-  - [Contributors](#contributors)
-  - [Sources](#sources)
-  - [Project Specs](#project-specs)
+  
  
 ## Introduction
   This project is a Firebase hosted chat app that after a google login users can participate in a group chat along of whoever has logged in.  This project was a really big learning curve for me as i was introduced to tailwind-css and Firebase/Cloud Firestore.
@@ -33,10 +30,10 @@
 - Active scrolling and updates.
 
 
-## Page-demo
+## Illustrations
 
 
-
+![Screen Shot 2022-11-09 at 6 22 23 PM](https://user-images.githubusercontent.com/105816411/200977330-9725fc2a-5480-487d-816f-0cb5848b1b57.png)
 
 
 

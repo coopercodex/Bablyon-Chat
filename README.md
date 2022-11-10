@@ -1,4 +1,4 @@
-# IdeaBox
+# Bablyon
 
 ## Table of Contents
   - [Introduction](#introduction)
@@ -12,7 +12,7 @@
   - [Contributors](#contributors)
   - [Sources](#sources)
   - [Project Specs](#project-specs)
-
+ 
 ## Introduction
   This project is a Firebase hosted chat app that after a google login users can participate in a group chat along of whoever has logged in.  This project was a really big learning curve for me as i was introduced to tailwind-css and Firebase/Cloud Firestore.
 

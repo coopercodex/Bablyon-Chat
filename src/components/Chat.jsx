@@ -5,7 +5,7 @@ import { db } from '../firebase'
 import { query, collection, onSnapshot, orderBy } from 'firebase/firestore'
 
 const style = {
-  chat: `flex flex-col p-[10px] mb-[4rem] relative overflow-y-auto`,
+  chat: `flex flex-col p-[10px] mb-[4rem] relative overflow-y-scroll`,
 }
 const Chat = () => {
   const [messages, setMessages] = useState([]);
